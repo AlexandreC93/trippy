@@ -9,9 +9,9 @@ export default function NavBar() {
                 <ul>
                 </ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/hotels">Hotels</Link></li>
+                    {/* <li><Link to="/hotels">Hotels</Link></li>
                     <li><Link to="/hotel">Hotel Page</Link></li>
-                    <li><Link to="*">Error 404</Link></li>
+                    <li><Link to="*">Error 404</Link></li> */}
             </nav>
         </div>
     )

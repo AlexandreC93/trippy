@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 
 export default function Home() {
-    const [cities, setCities]= useState([]);
+    const [cities, setCities] = useState([])
     return (
         <div>
-            <h1>HOME</h1>
+            <h1>Home</h1>
         </div>
     )
 }

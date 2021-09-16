@@ -4,7 +4,7 @@ export default function Home() {
     const [cities, setCities] = useState([])
     return (
         <div>
-            
+            <h1>Home</h1>
         </div>
     )
 }

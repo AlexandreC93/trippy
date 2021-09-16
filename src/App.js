@@ -9,6 +9,7 @@ import HotelMap from "./components/HotelMap";
 import HotelMarker from "./components/HotelMarker";
 import CityCard from "./components/CityCard";
 import Error404 from './components/Error404';
+import "./App.css"
 
 
 function App() {

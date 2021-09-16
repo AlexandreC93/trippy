@@ -1,0 +1,33 @@
+/* VARIABLE */
+element{
+    --navbar-color: #00a64a;
+
+}
+
+.img{
+    height: 25vh;
+    width: 20vw;
+    border-radius: 25px;
+}
+
+#card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 25px;
+    width: 30vw;
+    background-color: var(--navbar-color);
+}
+
+#card-list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');

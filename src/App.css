@@ -1,7 +1,6 @@
 /* VARIABLE */
-element{
+:root{
     --navbar-color: #00a64a;
-
 }
 
 .img{

@@ -15,11 +15,9 @@ import "./App.css"
 function App() {
   return (
     <BrowserRouter>
-
       <div className="App">
-
-        <h1>App</h1>
         <NavBar />
+
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/hotels" component={Hotels} />

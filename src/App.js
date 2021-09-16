@@ -14,9 +14,11 @@ import Error404 from './components/Error404';
 function App() {
   return (
     <BrowserRouter>
+
       <div className="App">
+
         <h1>App</h1>
-        <NavBar/>
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/hotels" component={Hotels} />

@@ -9,16 +9,14 @@ import HotelMap from "./components/HotelMap";
 import HotelMarker from "./components/HotelMarker";
 import CityCard from "./components/CityCard";
 import Error404 from './components/Error404';
-
+import './App.css'
 
 function App() {
   return (
     <BrowserRouter>
-
       <div className="App">
-
-        <h1>App</h1>
         <NavBar />
+        <CityCard />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/hotels" component={Hotels} />

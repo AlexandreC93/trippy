@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300 & display=swap');
+
+
+
+.imgg {
+    width: 200px;
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+    background-color : #cccccc;
+    color:#2a2a2a;
+    size: 16px;
+    font-weight: 400px;
+    font-family : 'Montserrat', sans-serif;
+
+}
+
+.nav{
+    font-size: 50px;
+    color: #00a64a76;
+}
+
+.title{
+    font-weight: 700;
+    size: 22px;
+}
